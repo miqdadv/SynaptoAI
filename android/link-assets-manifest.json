@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/DotGothic16-Regular.ttf",
+      "sha1": "2b7609c4bc33fe0b2da47ec4065d1b766c64fa2d"
+    },
+    {
+      "path": "src/assets/fonts/Farro-Bold.ttf",
+      "sha1": "97e7ff74906edd6a2c412b3b36eaab95d5916cf5"
+    }
+  ]
+}
