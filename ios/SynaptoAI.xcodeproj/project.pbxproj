@@ -11,6 +11,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		303DB25E9C3B4C8D8A2AB164 /* MomoTrustDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B894F7097FC4A13BA0285FD /* MomoTrustDisplay-Regular.ttf */; };
+		C1F97E6A426D41E2A3EC7A6E /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91CCF5A1B75047EC8924FF0C /* Orbitron-Black.ttf */; };
+		7FD83515F0B7416B858ED360 /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6954D3103913495BA151529A /* Orbitron-Bold.ttf */; };
+		1B960779B38640A6937493C1 /* Orbitron-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44CFC82F41B5426CBFAA9B5A /* Orbitron-ExtraBold.ttf */; };
+		C2BC4B30A81D4404BC698BAA /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFBE2044F04F7F8715C9BB /* Orbitron-Medium.ttf */; };
+		BED848590AF04657B15A1F0F /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C566148464EE4BEA87307459 /* Orbitron-Regular.ttf */; };
+		285A79C8285449DCAD4F0E0D /* Orbitron-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2607BE95B6594191950B888B /* Orbitron-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,13 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SynaptoAI/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SynaptoAI/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8B894F7097FC4A13BA0285FD /* MomoTrustDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "MomoTrustDisplay-Regular.ttf"; path = "../src/assets/fonts/MomoTrustDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91CCF5A1B75047EC8924FF0C /* Orbitron-Black.ttf */ = {isa = PBXFileReference; name = "Orbitron-Black.ttf"; path = "../src/assets/fonts/Orbitron-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6954D3103913495BA151529A /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; name = "Orbitron-Bold.ttf"; path = "../src/assets/fonts/Orbitron-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44CFC82F41B5426CBFAA9B5A /* Orbitron-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Orbitron-ExtraBold.ttf"; path = "../src/assets/fonts/Orbitron-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DFFBE2044F04F7F8715C9BB /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; name = "Orbitron-Medium.ttf"; path = "../src/assets/fonts/Orbitron-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C566148464EE4BEA87307459 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; name = "Orbitron-Regular.ttf"; path = "../src/assets/fonts/Orbitron-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2607BE95B6594191950B888B /* Orbitron-SemiBold.ttf */ = {isa = PBXFileReference; name = "Orbitron-SemiBold.ttf"; path = "../src/assets/fonts/Orbitron-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				532E24A1731F45849AB42979 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +130,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		532E24A1731F45849AB42979 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8B894F7097FC4A13BA0285FD /* MomoTrustDisplay-Regular.ttf */,
+				91CCF5A1B75047EC8924FF0C /* Orbitron-Black.ttf */,
+				6954D3103913495BA151529A /* Orbitron-Bold.ttf */,
+				44CFC82F41B5426CBFAA9B5A /* Orbitron-ExtraBold.ttf */,
+				2DFFBE2044F04F7F8715C9BB /* Orbitron-Medium.ttf */,
+				C566148464EE4BEA87307459 /* Orbitron-Regular.ttf */,
+				2607BE95B6594191950B888B /* Orbitron-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +215,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				303DB25E9C3B4C8D8A2AB164 /* MomoTrustDisplay-Regular.ttf in Resources */,
+				C1F97E6A426D41E2A3EC7A6E /* Orbitron-Black.ttf in Resources */,
+				7FD83515F0B7416B858ED360 /* Orbitron-Bold.ttf in Resources */,
+				1B960779B38640A6937493C1 /* Orbitron-ExtraBold.ttf in Resources */,
+				C2BC4B30A81D4404BC698BAA /* Orbitron-Medium.ttf in Resources */,
+				BED848590AF04657B15A1F0F /* Orbitron-Regular.ttf in Resources */,
+				285A79C8285449DCAD4F0E0D /* Orbitron-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
