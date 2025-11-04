@@ -1,10 +1,15 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { FontSize} from '../../theme'
+import { useNavigation } from '@react-navigation/native'
 
 const DoneButton = () => {
+  const navigation = useNavigation<any>();
+  const handleNavigation = ()=>{
+    navigation.navigate('AuthStack')
+  }
   return (
-    <TouchableOpacity style={styles.doneButton}>
+    <TouchableOpacity style={styles.doneButton} onPress={handleNavigation}>
        <Text style={styles.doneText}>Done</Text>
      </TouchableOpacity>
   )

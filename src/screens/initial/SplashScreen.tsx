@@ -5,16 +5,14 @@ import { Animations } from '../../assets';
 import { Font, FontSize } from '../../theme';
 import { useNavigation } from '@react-navigation/native';
 
+
+
 const SplashScreen = () => {
   const navigation = useNavigation<any>();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      navigation.navigate('Onboarding');
-    }, 7000);
-
-    return () => clearTimeout(timer);
-  }, []);
+  const handleNavigation = () => {
+  navigation.navigate('Onboarding');
+}
 
   return (
     <View style={styles.container}>
@@ -22,6 +20,8 @@ const SplashScreen = () => {
         source={Animations.splash}
         style={styles.animation}
         autoPlay
+        loop={false}
+        onAnimationFinish={handleNavigation}
       />
       <Text style={styles.text}>Synapto</Text>
     </View>
